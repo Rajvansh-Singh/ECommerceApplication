@@ -1,0 +1,14 @@
+C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\bin\Debug\net8.0\ECommerceApplication.exe
+C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\bin\Debug\net8.0\ECommerceApplication.deps.json
+C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\bin\Debug\net8.0\ECommerceApplication.runtimeconfig.json
+C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\bin\Debug\net8.0\ECommerceApplication.dll
+C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\bin\Debug\net8.0\ECommerceApplication.pdb
+C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\obj\Debug\net8.0\ECommerceApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\obj\Debug\net8.0\ECommerceApplication.AssemblyInfoInputs.cache
+C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\obj\Debug\net8.0\ECommerceApplication.AssemblyInfo.cs
+C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\obj\Debug\net8.0\ECommerceApplication.csproj.CoreCompileInputs.cache
+C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\obj\Debug\net8.0\ECommerceApplication.dll
+C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\obj\Debug\net8.0\refint\ECommerceApplication.dll
+C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\obj\Debug\net8.0\ECommerceApplication.pdb
+C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\obj\Debug\net8.0\ECommerceApplication.genruntimeconfig.cache
+C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\obj\Debug\net8.0\ref\ECommerceApplication.dll
