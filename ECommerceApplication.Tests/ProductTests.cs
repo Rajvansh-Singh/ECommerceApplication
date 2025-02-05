@@ -64,5 +64,48 @@ namespace ECommerceApplication.Tests
         {
             Assert.Throws<ArgumentException>(() => _product.IncreaseStock(-15));
         }
+        // 7. Test for valid Product ID within range
+        [Test]
+        public void Product_ValidProductID_ShouldInitializeCorrectly()
+        {
+            var product = new Product(5000, "Laptop", 1500m, 200);
+            Assert.That(product.ProdID, Is.EqualTo(5000));
+        }
+
+        // 8. Test for Product ID below the minimum (5)
+        [Test]
+        public void Product_InvalidProductID_LowerThanMin_ShouldThrowException()
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => new Product(4, "Smartphone", 800m, 50));
+        }
+
+        // 9. Test for Product ID above the maximum (50000)
+        [Test]
+        public void Product_InvalidProductID_AboveMax_ShouldThrowException()
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => new Product(50001, "Tablet", 999.99m, 20));
+        }
+
+        // 10. Test for valid Item Price within range ($5 - $5000)
+        [Test]
+        public void Product_ValidPrice_ShouldInitializeCorrectly()
+        {
+            var product = new Product(100, "Headphones", 100m, 50);
+            Assert.That(product.ItemPrice, Is.EqualTo(100m));
+        }
+
+        // 11. Test for Item Price below the minimum ($5)
+        [Test]
+        public void Product_InvalidPrice_LowerThanMin_ShouldThrowException()
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => new Product(100, "Headphones", 4m, 50));
+        }
+
+        // 12. Test for Item Price above the maximum ($5000)
+        [Test]
+        public void Product_InvalidPrice_AboveMax_ShouldThrowException()
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => new Product(100, "Headphones", 5001m, 50));
+        }
     }
 }

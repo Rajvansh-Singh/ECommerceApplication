@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\singh\\.nuget\\packages\\": {}
+    "C:\\Users\\samit\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\singh\\source\\repos\\ECommerceApplication\\ECommerceApplication\\ECommerceApplication.csproj",
+      "projectUniqueName": "C:\\Users\\samit\\Downloads\\ECommerceApplication-main\\ECommerceApplication\\ECommerceApplication.csproj",
       "projectName": "ECommerceApplication",
-      "projectPath": "C:\\Users\\singh\\source\\repos\\ECommerceApplication\\ECommerceApplication\\ECommerceApplication.csproj",
-      "packagesPath": "C:\\Users\\singh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\singh\\source\\repos\\ECommerceApplication\\ECommerceApplication\\obj\\",
+      "projectPath": "C:\\Users\\samit\\Downloads\\ECommerceApplication-main\\ECommerceApplication\\ECommerceApplication.csproj",
+      "packagesPath": "C:\\Users\\samit\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\samit\\Downloads\\ECommerceApplication-main\\ECommerceApplication\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\samit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -41,11 +46,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
