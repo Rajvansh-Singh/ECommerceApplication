@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ccTLQxZKTr2AWZk1JoUOyCZLQ6Aug8lTaAXeySKVsMei8T7k4fUhTIi+Qon1UYSI7YgbGKkOEUuJ16cgbLbKVg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\samit\\Downloads\\ECommerceApplication-main\\ECommerceApplication\\ECommerceApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samit\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
