@@ -107,5 +107,50 @@ namespace ECommerceApplication.Tests
         {
             Assert.Throws<ArgumentOutOfRangeException>(() => new Product(100, "Headphones", 5001m, 50));
         }
+        // 13. Test for Stock Amount Below Minimum (5)
+        [Test]
+        public void Product_InvalidStock_LowerThanMin_ShouldThrowException()
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => new Product(100, "Monitor", 500m, 4));
+        }
+
+        // 14. Test for Stock Amount Above Maximum (500000)
+        [Test]
+        public void Product_InvalidStock_AboveMax_ShouldThrowException()
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => new Product(100, "Monitor", 500m, 500001));
+        }
+
+        // 15. Test for Stock Increase with Zero (Should Not Change Stock)
+        [Test]
+        public void IncreaseStock_ZeroAmount_ShouldNotChangeStock()
+        {
+            _product.IncreaseStock(0);
+            Assert.That(_product.StockAmount, Is.EqualTo(100));
+        }
+
+        // 16. Test for Stock Decrease with Zero (Should Not Change Stock)
+        [Test]
+        public void DecreaseStock_ZeroAmount_ShouldNotChangeStock()
+        {
+            _product.DecreaseStock(0);
+            Assert.That(_product.StockAmount, Is.EqualTo(100));
+        }
+
+        // 17. Test for Negative Price Should Throw Exception
+        [Test]
+        public void Product_NegativePrice_ShouldThrowException()
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => new Product(100, "Speaker", -20m, 50));
+        }
+        // 18 Test for Sequential Stock Decreases
+        [Test]
+        public void DecreaseStock_MultipleTimes_ShouldDecreaseCorrectly()
+        {
+            _product.DecreaseStock(20);
+            _product.DecreaseStock(30);
+            Assert.That(_product.StockAmount, Is.EqualTo(50)); // The calculation performed is this one 100 - 20 - 30 = 50
+        }
+
     }
 }

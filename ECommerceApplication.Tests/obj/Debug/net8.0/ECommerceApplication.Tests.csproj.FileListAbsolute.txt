@@ -103,3 +103,4 @@ C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication.Tests\obj\
 C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication.Tests\obj\Debug\net8.0\ECommerceApplication.Tests.pdb
 C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication.Tests\obj\Debug\net8.0\ECommerceApplication.Tests.genruntimeconfig.cache
 C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication.Tests\obj\Debug\net8.0\ref\ECommerceApplication.Tests.dll
+C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication.Tests\obj\Debug\net8.0\ECommerceApplication.Tests.sourcelink.json

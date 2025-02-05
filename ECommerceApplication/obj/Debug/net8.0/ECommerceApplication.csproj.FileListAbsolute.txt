@@ -12,3 +12,4 @@ C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\obj\Debug\
 C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\obj\Debug\net8.0\ECommerceApplication.pdb
 C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\obj\Debug\net8.0\ECommerceApplication.genruntimeconfig.cache
 C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\obj\Debug\net8.0\ref\ECommerceApplication.dll
+C:\Users\singh\source\repos\ECommerceApplication\ECommerceApplication\obj\Debug\net8.0\ECommerceApplication.sourcelink.json
